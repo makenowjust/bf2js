@@ -1,0 +1,27 @@
+{
+  "name": "bf2js",
+  "version": "0.0.1",
+  "description": "brainf*ck to javascript compiler",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/**/*_test.js"
+  },
+  "keywords": [
+    "brainf*ck",
+    "altjs",
+    "compiler",
+    "sourcemap"
+  ],
+  "author": "TSUYUSATO Kitsune <make.just.on@gmail.com> (http://makenowjust.appspot.com)",
+  "license": "Apache-2.0",
+  "bin": {
+    "bf2js": "./bin/bf2js.js"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "expect.js": "^0.3.1"
+  }
+}
