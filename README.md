@@ -73,4 +73,13 @@ $ bf2js --help
   4. push to the branch (`git push origin my-new-feature`)
   5. create new Pull Request
 
+##license
 
+bf2js is released under the [BSD-2-Clause].
+
+##copyright
+
+Copyright 2014, TSUYUSATO Kitsune <make.just.on@gmail.com>
+
+[source-map]: https://github.com/mozilla/source-map/
+[BSD-2-Clause]: http://opensource.org/licenses/BSD-2-Clause
