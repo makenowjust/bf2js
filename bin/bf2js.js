@@ -6,7 +6,7 @@ colors  = require('colors'),
 program = require('commander');
 
 program
-  .version('0.1.0')
+  .version('0.1.1')
   .usage('[options] <filename>')
   .option('-r, --run', 'Running brainf*ck')
   .option('-p, --print', 'Print generated source to stdout')
