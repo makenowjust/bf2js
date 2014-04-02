@@ -43,7 +43,7 @@ option.filename = filename;
 
 if (program.map) option.useMap = true;
 if (program.html) {
-  program.nodejs = false;
+  option.nodejs = false;
   option.putchar = '(' + function () {
     var chrs = [];
     setTimeout(function () {
