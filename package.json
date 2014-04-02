@@ -15,8 +15,15 @@
     "compiler",
     "sourcemap"
   ],
-  "author": "TSUYUSATO Kitsune <make.just.on@gmail.com> (http://makenowjust.appspot.com)",
+  "author": "TSUYUSATO Kitsune <make.just.on@gmail.com>",
   "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/MakeNowJust/bf2js/issue"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MakeNowJust/bf2js.git"
+  },
   "bin": {
     "bf2js": "./bin/bf2js.js"
   },
