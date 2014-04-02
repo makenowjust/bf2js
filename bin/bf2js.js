@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+'use strict';
+
 var
 colors  = require('colors'),
 program = require('commander');

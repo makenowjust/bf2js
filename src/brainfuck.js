@@ -1,3 +1,5 @@
+'use strict'
+
 // class Inst
 function Inst(name, pos, val) {
   // calling as constructor check
