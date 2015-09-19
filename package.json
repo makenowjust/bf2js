@@ -1,38 +1,43 @@
 {
   "name": "bf2js",
-  "version": "0.1.1",
   "description": "brainf*ck to javascript compiler",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha test/**/*_test.js"
-  },
-  "keywords": [
-    "brainf*ck",
-    "altjs",
-    "compiler",
-    "sourcemap"
-  ],
+  "version": "1.0.0",
   "author": "TSUYUSATO Kitsune <make.just.on@gmail.com>",
-  "license": "BSD-2-Clause",
+  "bin": {
+    "bf2js": "./bin/bf2js.js"
+  },
   "bugs": {
     "url": "https://github.com/MakeNowJust/bf2js/issue"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MakeNowJust/bf2js.git"
-  },
-  "bin": {
-    "bf2js": "./bin/bf2js.js"
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.8.1"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
     "mocha": "^2.3.2"
   },
-  "dependencies": {
-    "colors": "^1.1.2",
-    "commander": "^2.8.1"
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "bin/"
+  ],
+  "keywords": [
+    "altjs",
+    "brainf*ck",
+    "compiler",
+    "sourcemap"
+  ],
+  "license": "BSD-2-Clause",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MakeNowJust/bf2js.git"
+  },
+  "scripts": {
+    "test": "mocha"
   }
 }

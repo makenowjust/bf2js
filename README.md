@@ -1,6 +1,6 @@
 # bf2js
 
-__bf2js__ is a AltJS (translater from brainf\*ck to JS).
+__bf2js__ is a AltJS . It translate brainf\*ck to JS.
 
 ## What is new?
 
