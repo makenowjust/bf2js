@@ -1,34 +1,34 @@
-#bf2js
+# bf2js
 
 __bf2js__ is a AltJS (translater from brainf\*ck to JS).
 
-##What is new?
+## What is new?
 
 __bf2js__ supports [source-map].
 
 so, you can debug brainf\*ck on browser!
 
-##install
+## install
 
 ```
 $ npm install -g bf2js
 ```
 
-##usage
+## usage
 
-###translate
+### translate
 
 ```
 $ bf2js sample/a.bf
 ```
 
-###translate and print
+### translate and print
 
 ```
 $ bf2js -p sample/a.bf
 ```
 
-###translate to html
+### translate to html
 
 ```
 $ bf2js -h sample/a.bf
@@ -36,19 +36,19 @@ $ static &
 $ open http://localhost:8080/a.html
 ```
 
-###translate with source-map
+### translate with source-map
 
 ```
 $ bf2js -m sample/a.bf
 ```
 
-###run
+### run
 
 ```
 $ bf2js -r a.bf
 ```
 
-##help
+## help
 
 ```
 $ bf2js --help
@@ -65,7 +65,7 @@ $ bf2js --help
     -h, --html     Generate html
 ```
 
-##contributing
+## contributing
 
   1. fork it (<http://github.com/MakeNowJust/bf2js>)
   2. create your feature branch (`git checkout -b my-new-feature`)
@@ -73,11 +73,11 @@ $ bf2js --help
   4. push to the branch (`git push origin my-new-feature`)
   5. create new Pull Request
 
-##license
+## license
 
 bf2js is released under the [BSD-2-Clause].
 
-##copyright
+## copyright
 
 Copyright 2014, TSUYUSATO Kitsune <make.just.on@gmail.com>
 
