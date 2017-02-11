@@ -1,5 +1,7 @@
 # bf2js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MakeNowJust/bf2js.svg)](https://greenkeeper.io/)
+
 __bf2js__ is a AltJS . It translate brainf\*ck to JS.
 
 ## What is new?
